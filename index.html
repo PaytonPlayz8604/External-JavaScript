@@ -52,6 +52,24 @@
         user-select: none;
         /* Standard syntax */
     }
+    .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .buton:hover {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #04AA6D;
+    }
 </style>
 
 <!-- LINKING -->
@@ -62,6 +80,7 @@
 <body style="background-color: rgb(37, 37, 37);">
     <h1><i class="fa fa-link"></i> Linking an External JavaScript File </h1>
     <script src="JS/script.js"></script>
+    <button type="button">Send an alert!</button>
 </body>
 
 </html>
